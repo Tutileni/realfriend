@@ -1,0 +1,9 @@
+{
+  "groups": [{
+    "name": "application",
+    "sourceType": "com.realfriends.rfs.config.ApplicationProperties",
+    "type": "com.realfriends.rfs.config.ApplicationProperties"
+  }],
+  "hints": [],
+  "properties": []
+}

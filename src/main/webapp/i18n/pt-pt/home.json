@@ -1,0 +1,31 @@
+{
+    "home": {
+        "title": "Bem-vindo, Java Hipster!",
+        "subtitle": "Esta é a página principal",
+        "logged": {
+            "message": "Está autenticado como \"{{username}}\"."
+        },
+        "question": "Em caso de dúvida sobre o JHipster:",
+        "link": {
+            "homepage": "Página do JHipster",
+            "stackoverflow": "JHipster no Stack Overflow",
+            "bugtracker": "Bug's do JHipster",
+            "chat": "Chat público do JHipster",
+            "follow": "Contacte Realfriends no : "
+        },
+        "aboutUs": {
+            "title": "Sobre nós",
+            "message": "RealFriends é uma comunidade baseada na ajuda mútua e solidariedade estudante. Seu principal objetivo é conectar todos os alunos que estudam projetos no exterior com associações e estudantes lá. Juntos, compartilhamos a nossa experiência social e acadêmica para os recém-chegados e iremos fornecer todas as informações necessárias e úteis antes e depois da sua estadia no local."        
+         },
+         "apprf": {
+            "title": "RealFriends",
+            "message": "Este aplicativo móvel é essencialmente uma ferramenta dedicada à integração e adaptação de estudantes estrangeiros. Ele irá proporcionar a oportunidade para estudantes e associações para criar perfis, permitindo trocas instantâneas dentro da comunidade RealFriends. Como serviços, entre muitos outros, os recém-chegados beneficiar da experiência dos alunos já instalados, os novos alunos serão chamados mais fácil em associações, os alunos irão beneficiar da nossa rede de indivíduos e encontrar rapidamente uma habitação, a ferramenta em si será uma fonte de informação (administrativa, currículo, oportunidades de emprego, notícias sobre o mercado de trabalho ...)."
+        },
+        "commingsoon": {
+            "title": "Novidade",
+            "message": "Cadastre-se para não perder o lançamento  do aplicatiovo RealFriends que está atualmente em desenvolvimento."
+        },
+        "like": "Se gosta do JHipster, não se esqueça de avaliar no",
+        "github": "GitHub"
+    }
+}

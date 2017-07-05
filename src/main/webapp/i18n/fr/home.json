@@ -1,0 +1,31 @@
+{
+    "home": {
+        "title": "Bienvenue, Java Hipster !",
+        "subtitle": "Ceci est votre page d'accueil",
+        "logged": {
+            "message": "Vous êtes connecté en tant que \"{{username}}\"."
+        },
+        "question": "Si vous avez des questions à propos de JHipster :",
+        "link": {
+            "homepage": "Page d'accueil de JHipster",
+            "stackoverflow": "JHipster sur Stack Overflow",
+            "bugtracker": "JHipster bug tracker",
+            "chat": "JHipster public chat room",
+            "follow": "Suivez Realfriends sur : "
+        },
+        "aboutUs": {
+            "title": "Qui sommes-nous ?",
+            "message": "RealFriends est une communauté basée sur l’entraide et la solidarité estudiantine. Son objectif majeur est de connecter tous les étudiants ayant des projets d’étude à l’étranger avec les associations et les étudiants qui s’y trouvent. Ensemble, nous partagerons nos expériences sociales et scolaires aux nouveaux arrivants et nous les fournirons toutes les informations nécessaires et utiles avant et après leur séjour sur site."
+        },
+        "apprf": {
+            "title": "L’application RealFriends",
+            "message": "Cette application mobile sera un outil essentiellement dédié à l’intégration et à l’adaptation des étudiants étrangers. Elle offrira la possibilité aux étudiants et aux associations de créer des profils, ce qui permettra des échanges instantanés au sein de la communauté RealFriends.Comme services parmi autant d’autres, les nouveaux arrivants bénéficieront de l’expérience des étudiants déjà installés, les nouveaux étudiants seront aiguillés plus facilement au niveau des associations, les étudiants pourront bénéficier de notre réseau de particuliers et trouver assez rapidement un logement, l’outil en lui-même sera une source d’informations (démarches administratives,cursus scolaire, opportunités d’emplois, actualité sur le marché du travail …)."
+        },
+        "commingsoon": {
+            "title": "La sortie, c'est bient&ocirc;t",
+            "message": "Inscrivez – vous  pour ne pas rater la sortie de  l’application RealFriends qui est actuellement en cours de développement."
+        },
+        "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+        "github": "GitHub "
+    }
+}

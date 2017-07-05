@@ -1,0 +1,31 @@
+{
+    "home": {
+        "title": "Welcome, Java Hipster!",
+        "subtitle": "This is your homepage",
+        "logged": {
+            "message": "You are logged in as user \"{{username}}\"."
+        },
+        "question": "If you have any question on JHipster:",
+        "link": {
+            "homepage": "JHipster homepage",
+            "stackoverflow": "JHipster on Stack Overflow",
+            "bugtracker": "JHipster bug tracker",
+            "chat": "JHipster public chat room",
+            "follow": "follow RealFriends on : "
+        },
+        "aboutUs": {
+            "title": "About Us",
+            "message": "RealFriends is a community based on mutual help and student solidarity. Its main objective is to connect all students with study projects abroad with the associations and students who are there. Together we will share our social and educational experiences with newcomers and provide them with all necessary and useful information before and after their stay on site."
+        },
+        "apprf": {
+            "title": "RealFriends ",
+            "message": "This mobile application will be a tool mainly dedicated to the integration and adaptation of foreign students. It will provide opportunities for students and associations to create profiles, which will allow instant exchanges within the RealFriends community. As new services, newcomers will benefit from the experience of students already settled, new students will be more easily referred to associations, students will be able to benefit from our network of private individuals and find housing quickly, The tool itself will be a source of information (administrative procedures, school curriculum, job opportunities, news on the labor market …)."
+        },
+        "commingsoon": {
+            "title": "Comming Soon ",
+            "message": "Sign up to keep up with the release of The RealFriends application that is currently under development"
+        },
+        "like": "If you like JHipster, don't forget to give us a star on",
+        "github": "GitHub"
+    }
+}

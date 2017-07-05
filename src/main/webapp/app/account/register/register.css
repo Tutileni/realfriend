@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.register+div, .register {
+	color: #0099CC;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: .25rem;
+    margin-left: -1.25rem;
+}
+.form-check-input [type="checkbox"], .form-check-input [type="radio"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.form-check-input input[type="radio"], .form-check-input input[type="checkbox"] {
+	margin: 4px 0 0;
+	margin-top: 1px \9;
+	line-height: normal;
+}
