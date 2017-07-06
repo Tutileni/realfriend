@@ -35,13 +35,32 @@ spring:
             hibernate.generate_statistics: false
             hibernate.cache.region.factory_class: io.github.jhipster.config.jcache.NoDefaultJCacheRegionFactory
     mail:
-        host: localhost
-        port: 25
-        username:
-        password:
+        protocol: smtp        
+        host: smtp.gmail.com
+        port: 587
+        username: simao09pedro03@gmail.com
+        password: Lasama92
+        tls: true
+        properties.mail.smtp:
+            auth: true
+            starttls.enable: true
+            ssl.trust: smtp.gmail.com
     thymeleaf:
         cache: true
+    social:
+        # see https://developers.google.com/+/web/signin/server-side-flow#step_1_create_a_client_id_and_client_secret
+        google:
+            client-id: 669260883082-foop79ahn9q27r73fpeg28evtoda241g.apps.googleusercontent.com 
+            client-secret: 6Vzhk4QMSOYFMtPCTumNGd_b 
+        # see https://developers.facebook.com/docs/facebook-login/v2.2
+        facebook:
+            client-id: 133783337203540
+            client-secret: 1d5a7eada8b276c0f61b2102d5aa14b9
 
+        # see https://apps.twitter.com/app/
+        twitter:
+            client-id: xxx
+            client-secret: xxx
 liquibase:
     contexts: prod
 
@@ -121,3 +140,26 @@ jhipster:
 # ===================================================================
 
 application:
+   spring:
+      jpa:
+        database: POSTGRESQL
+        show-sql: true
+        hibernate:
+          ddl-auto: update
+      datasource:
+        platform: org.hibernate.dialect.PostgreSQLDialect
+        url: postgres://qqjnxuisbjzmcc:3d896e892e96924339410df8feb9e7ed7c533902ea5b60d0e1754bb81e2f3fc6@ec2-23-23-225-12.compute-1.amazonaws.com:5432/d2vt2u1pajdn5p
+        username: qqjnxuisbjzmcc
+        password: 3d896e892e96924339410df8feb9e7ed7c533902ea5b60d0e1754bb81e2f3fc6
+        driverClassName: org.postgresql.Driver
+      mail:
+        protocol: smtp        
+        host: smtp.gmail.com
+        port: 587
+        username: simao09pedro03@gmail.com
+        password: Lasama92
+        tls: true
+        properties.mail.smtp:
+            auth: true
+            starttls.enable: true
+            ssl.trust: smtp.gmail.com

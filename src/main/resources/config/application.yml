@@ -120,5 +120,16 @@ jhipster:
 # More documentation is available at:
 # https://jhipster.github.io/common-application-properties/
 # ===================================================================
-
 application:
+#       spring:
+#          jpa:
+#            database: POSTGRESQL
+#            show-sql: true
+#            hibernate:
+#              ddl-auto: update
+#          datasource:
+#            platform: postgres
+#            url: jdbc:postgresql://localhost:5432/mydb
+#            username: foo
+#            password: bar
+#            driverClassName: org.postgresql.Driver
