@@ -21,9 +21,9 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/realfriends
-        username: realfriends
-        password:
+        url: jdbc:postgresql://localhost:5432/rfdbprod
+        username: postgres
+        password: root
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
@@ -35,16 +35,18 @@ spring:
             hibernate.generate_statistics: false
             hibernate.cache.region.factory_class: io.github.jhipster.config.jcache.NoDefaultJCacheRegionFactory
     mail:
-        protocol: smtp        
-        host: smtp.gmail.com
-        port: 587
-        username: simao09pedro03@gmail.com
-        password: Lasama92
-        tls: true
-        properties.mail.smtp:
-            auth: true
-            starttls.enable: true
-            ssl.trust: smtp.gmail.com
+          protocol: smtp        
+          host: smtp.gmail.com
+          port: 587
+          username: simao09pedro03@gmail.com
+          password: Lasama92
+          properties:
+                 mail:
+                    smtp:
+                      auth: true
+                      starttls.enable: true
+                      ssl.trust: smtp.gmail.com
+                      tls: true
     thymeleaf:
         cache: true
     social:
@@ -152,14 +154,3 @@ application:
 #        username: qqjnxuisbjzmcc
 #        password: 3d896e892e96924339410df8feb9e7ed7c533902ea5b60d0e1754bb81e2f3fc6
 #        driverClassName: org.postgresql.Driver
-      mail:
-        protocol: smtp        
-        host: smtp.gmail.com
-        port: 587
-        username: simao09pedro03@gmail.com
-        password: Lasama92
-        tls: true
-        properties.mail.smtp:
-            auth: true
-            starttls.enable: true
-            ssl.trust: smtp.gmail.com

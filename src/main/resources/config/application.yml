@@ -24,6 +24,20 @@ management:
 spring:
     application:
         name: realfriends
+    mail:
+          protocol: smtp        
+          host: smtp.gmail.com
+          port: 587
+          username: simao09pedro03@gmail.com
+          password: Lasama92
+          properties:
+                 mail:
+                    smtp:
+                      auth: true
+                      starttls.enable: true
+                      ssl.trust: smtp.gmail.com
+                      tls: true
+                                
     profiles:
         # The commented value for `active` can be replaced with valid Spring profiles to load.
         # Otherwise, it will be filled in by maven when building the WAR file
