@@ -140,18 +140,18 @@ jhipster:
 # ===================================================================
 
 application:
-   spring:
-      jpa:
-        database: POSTGRESQL
-        show-sql: true
-        hibernate:
-          ddl-auto: update
-      datasource:
-        platform: org.hibernate.dialect.PostgreSQLDialect
-        url: postgres://qqjnxuisbjzmcc:3d896e892e96924339410df8feb9e7ed7c533902ea5b60d0e1754bb81e2f3fc6@ec2-23-23-225-12.compute-1.amazonaws.com:5432/d2vt2u1pajdn5p
-        username: qqjnxuisbjzmcc
-        password: 3d896e892e96924339410df8feb9e7ed7c533902ea5b60d0e1754bb81e2f3fc6
-        driverClassName: org.postgresql.Driver
+#   spring:
+#      jpa:
+#        database: POSTGRESQL
+#        show-sql: true
+#        hibernate:
+#          ddl-auto: update
+#      datasource:
+#        platform: org.hibernate.dialect.PostgreSQLDialect
+#        url: jdbc:postgresql://qqjnxuisbjzmcc:3d896e892e96924339410df8feb9e7ed7c533902ea5b60d0e1754bb81e2f3fc6@ec2-23-23-225-12.compute-1.amazonaws.com:5432/d2vt2u1pajdn5p
+#        username: qqjnxuisbjzmcc
+#        password: 3d896e892e96924339410df8feb9e7ed7c533902ea5b60d0e1754bb81e2f3fc6
+#        driverClassName: org.postgresql.Driver
       mail:
         protocol: smtp        
         host: smtp.gmail.com
